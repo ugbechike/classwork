@@ -1,0 +1,99 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: black;
+    height: 100px;
+}
+
+#nav {
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+}
+
+.row div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.up {
+    background-color: #f2e;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.left {
+    width: 35%;
+    background-color: #f34;
+    padding-left: 10px;
+    height: 573px;
+}
+
+.col-1 {
+    width: 55%;
+}
+
+.col-1x>div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.here {
+    margin-left: 40px;
+}
+
+ul.link {
+    height: auto;
+}
+
+ul.link li {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.link li {
+    width: 200px;
+}
+
+.down {
+    background-color: green;
+    height: auto;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.row2 div {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.list {
+    width: 35%;
+    height: auto;
+    background-color: blue;
+    height: auto;
+}
+
+.side {
+    width: 55%;
+}
+
+.side1 {
+    background-color: yellow;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
